@@ -112,7 +112,7 @@ function schedule_algorithm(event::Event, vertex_id::Int,
     end
 end
 
-# manual scheduling
+
 function schedule_graph!(event::Event, coefficients::Union{Any, Nothing})
     graph = event.data_flow.graph
     all_vertices = vertices(graph)
